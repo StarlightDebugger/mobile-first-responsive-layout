@@ -11,6 +11,7 @@
     font-family: "Open Sans", sans-serif;
     color: #4a4a4a;
     background-color: #fafafa;
+    max-width: 100vw;
   }
 
   ul {
@@ -192,13 +193,13 @@
 
   @media (min-width: 768px) {
     .top-nav {
-      margin-top: 0;
+      margin-top: 1%;
     }
   
     .top-nav li {
       display: inline-block;
       width: auto;
-      margin-right: 15px;
+      margin: 1% 2%;
       background-color: transparent;
     }
   
@@ -207,16 +208,49 @@
     }
   
     .top-nav a {
-      color: #fff;
+      color: #4a4a4a;
+    }
+
+    .intro {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+    .intro p {
+      text-align: left;
+    }
+
+    .intro img {
+      max-width: 30%;
+      margin: 0px auto;
     }
 
     .container {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-    }
+        margin: 0 auto;
+        align-items: flex-start;
+        justify-content: center;
+      }
 
+   .portfolio {
+      min-width: 55%vw;
+      flex-basis: 55%;
+      text-align: center;
+    }
     .col {
         flex-basis: calc(50% - 20px);
+    }
+
+    footer {
+      min-height: 20vh;
+      align-items: flex-start;
+      justify-content: space-around;
+      padding: 4% 0px;
     }
 
     .top {

@@ -173,8 +173,8 @@
     min-width: 80%;
   }
 
-  #contact hr {
-    border: 1px solid var(--secondary-font-color);
+  #contact hr { 
+    border: 1px solid var(--light-font-color);
   }
 
   footer {
@@ -185,7 +185,6 @@
     align-items: center;
     margin-top: auto;
     padding: 0 20px;
-    height: 100px;
     font-weight: 800;
   }
 
@@ -262,6 +261,7 @@
       align-items: flex-start;
       justify-content: space-around;
       padding: 4% 0px;
+      margin-bottom: 15vh;
     }
 
     .top {

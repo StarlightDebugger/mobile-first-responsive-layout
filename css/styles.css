@@ -3,6 +3,7 @@
   --secondary-bg-color: #f7f7f7;
   --main-font: "Open Sans";
   --main-font-color: #6c6c6c;
+  --secondary-font: "Kaushan Script", cursive;
   --secondary-font-color: #4a4a4a;
   --light-font-color: #a2a1a1;
   --accent-color: #f7c223;
@@ -45,6 +46,10 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
+  }
+
+  nav a:hover {
+   color: var(--accent-color);
   }
 
   nav h1 a {
@@ -153,6 +158,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--secondary-font);
   }
 
   #skills h2 {
@@ -218,6 +224,10 @@
     padding: 0 20px;
     font-weight: 800;
     min-height: 100px;
+  }
+
+  footer nav {
+    background-color: var(--secondary-bg-color);
   }
 
   footer p {
@@ -290,7 +300,6 @@
 
     footer {
       min-height: 20vh;
-      align-items: flex-start;
       justify-content: space-around;
       padding: 4% 0px;
       margin-bottom: 15vh;
